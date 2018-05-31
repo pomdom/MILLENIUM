@@ -492,9 +492,7 @@
 			overflow-x: hidden;
 		}
 		
-			.main.style1{ 
-        text-align: justify; /* Выравнивание по ширине */
-                }
+			.main.style1
 			{
 				text-align: center;
 				padding: 10em 0 10em 0;
@@ -503,7 +501,7 @@
 				.main.style1 h2 {
 					font-size: 4.25em;
 					line-height: 1em;
-					letter-spacing: -4px;
+					letter-spacing: -3px;
 				}
 				
 				.main.style1 .content {
@@ -514,7 +512,7 @@
 					-o-transition: all 1s ease;
 					-ms-transition: all 1s ease;
 					transition: all 1s ease;
-					
+                    text-align: justify; /* Выравнивание по ширине */
 					-moz-transform: translateZ(0);
 					-webkit-transform: translateZ(0);
 					-o-transform: translateZ(0);
@@ -538,13 +536,11 @@
 				.main.style2 .content {
 					position: relative;
 					width: 33%;
-
 					-moz-transition: all 1s ease;
 					-webkit-transition: all 1s ease;
 					-o-transition: all 1s ease;
 					-ms-transition: all 1s ease;
 					transition: all 1s ease;
-					
 					-moz-transform: translateZ(0);
 					-webkit-transform: translateZ(0);
 					-o-transform: translateZ(0);
@@ -600,6 +596,16 @@
 				.main.style3.secondary {
 					background: #f5f6f7;
 				}
+				.main.style4.temp {
+					text-align: center;
+				    padding: 6em 0 6em 0;
+					
+			}		
+				.main.style5.temp {
+					text-align: right;
+					
+					right: 0;
+				}	
 
 	/* Dark */
 
@@ -1075,7 +1081,7 @@
 		top: 0;
 		height: 3em;
 		line-height: 3em;
-		letter-spacing: -1px;
+		letter-spacing: 1px;
 	}
 	
 		#logo a {
